@@ -1,0 +1,37 @@
+{
+    "name": "m6web/php-lint",
+    "description": "Simple command to run php lint",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "M6Web",
+            "email": "opensource@m6web.fr",
+            "homepage": "http://tech.m6web.fr/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/process": "<3.2",
+        "symfony/finder": "<3.2",
+        "symfony/console": "<3.2"
+    },
+    "require-dev": {
+        "atoum/atoum": "^2.8",
+        "atoum/stubs": "^2.5",
+        "m6web/coke"                       : "~1.2",
+        "m6web/symfony2-coding-standard"   : "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "M6Web\\PhpLint\\": ""
+        }
+    },
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "bin": [
+        "bin/phplint"
+    ]
+}
