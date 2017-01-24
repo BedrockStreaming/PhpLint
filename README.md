@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/M6Web/PhpLint.svg?branch=master)](https://travis-ci.org/M6Web/PhpLint)
+
+
 #PhpLint
 
 PhpLint is a simple package to simply execute linter on directories.
