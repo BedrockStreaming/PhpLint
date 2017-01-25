@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6da5ab30dfb70fb698edb71f3863f3d7",
-    "content-hash": "1d230c353c47525aac2b1f02d674a60c",
+    "hash": "69078cb57ea9ce1d6bb431c24f68c585",
+    "content-hash": "66c9f29cca57c04054ccd2449021fc8e",
     "packages": [
         {
             "name": "psr/log",
@@ -125,12 +125,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "8dfba97c33692aef9b0f85d9b38a73972bfd7b77"
+                "reference": "55f724564dacda257840179a09e0edf3c9da7311"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/8dfba97c33692aef9b0f85d9b38a73972bfd7b77",
-                "reference": "8dfba97c33692aef9b0f85d9b38a73972bfd7b77",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/55f724564dacda257840179a09e0edf3c9da7311",
+                "reference": "55f724564dacda257840179a09e0edf3c9da7311",
                 "shasum": ""
             },
             "require": {
@@ -173,7 +173,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-23 08:28:52"
+            "time": "2017-01-24 09:54:11"
         },
         {
             "name": "symfony/finder",
